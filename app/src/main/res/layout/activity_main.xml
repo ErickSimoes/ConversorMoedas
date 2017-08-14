@@ -37,7 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:textColor="@color/colorAccent" />
 
     <TextView
         android:layout_width="match_parent"
@@ -50,7 +51,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"/>
 
     <Button
         android:id="@+id/button_calculate"
