@@ -16,9 +16,14 @@
 
     <EditText
         android:id="@+id/edit_value"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:hint="@string/hint_in_reais"/>
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp" />
 
     <TextView
         android:layout_width="match_parent"

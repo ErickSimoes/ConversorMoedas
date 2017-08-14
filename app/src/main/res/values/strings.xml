@@ -3,6 +3,5 @@
     <string name="real_value">Qual o valor em Reais?</string>
     <string name="dollar_value">Valor em Dolar:</string>
     <string name="euro_value">Valor em Euro:</string>
-    <string name="hint_in_reais">Valor em Reais...</string>
     <string name="calculate_value">Calcular valor:</string>
 </resources>
