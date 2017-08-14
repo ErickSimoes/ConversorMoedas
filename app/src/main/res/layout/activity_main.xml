@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context="br.com.ericksimoes.conversormoedas.MainActivity">
 
     <TextView
@@ -26,29 +27,36 @@
         android:paddingTop="10dp" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dollar_value"/>
+        android:text="@string/dollar_value"
+        android:layout_marginTop="50dp"/>
 
     <TextView
         android:id="@+id/text_dollar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="10dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/euro_value"/>
+        android:text="@string/euro_value"
+        android:layout_marginTop="50dp" />
 
     <TextView
         android:id="@+id/text_euro"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="10dp" />
 
     <Button
         android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/calculate_value"/>
+        android:text="@string/calculate_value"
+        android:layout_marginTop="80dp"/>
 
 </LinearLayout>
